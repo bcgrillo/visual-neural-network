@@ -13,6 +13,14 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "es-es",
+        "locales": {
+          "en-US": {
+            "translation": "src/locale/messages.en-US.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
@@ -97,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4b984243-e811-403e-add9-c54ddcef12dc"
   }
 }

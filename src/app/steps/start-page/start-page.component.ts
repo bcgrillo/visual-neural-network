@@ -15,7 +15,7 @@ export class StartPageComponent implements AfterViewInit   {
 
   ngAfterViewInit(): void {
     //this.draw();
-    this.p5 = new p5(this.sketch);
+    //this.p5 = new p5(this.sketch);
   }
 
   /*draw(): void {
@@ -26,7 +26,7 @@ export class StartPageComponent implements AfterViewInit   {
     }
   }*/
 
-  private sketch = (p: p5) => {
+  /*private sketch = (p: p5) => {
     p.preload = () => {};
   
     p.setup = () => {
@@ -48,5 +48,5 @@ export class StartPageComponent implements AfterViewInit   {
         x = x + 1;
       }
     };
-  };
+  };*/
 }
